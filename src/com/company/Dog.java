@@ -15,6 +15,8 @@ class Dog extends Animal {
         this.jump = jump;
     }
     public void dogInfo() {
-        System.out.println("Имя собаки: " + name  + " /лимит бега: " + run+ " мотров/" + " /плавает:" + swim + " /прыжок: " +jump+ " метров/");
+        System.out.println("Имя собаки: " + name  + " /лимит бега: " + run+ " мотров/" + " /плавает: " + swim + " метров/" + " /прыжок: " +jump+ " метров/");
+        System.out.println();
     }
+
 }
